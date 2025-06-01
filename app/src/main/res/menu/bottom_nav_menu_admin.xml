@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_cours_admin"
+        android:icon="@drawable/ic_cours"
+        android:title="Cours" />
+    <item
+        android:id="@+id/nav_planning_admin"
+        android:icon="@drawable/ic_calendar"
+        android:title="Planning" />
+    <item
+        android:id="@+id/nav_messages_admin"
+        android:icon="@drawable/ic_messages"
+        android:title="Messages" />
+    <item
+        android:id="@+id/nav_user_admin"
+        android:icon="@drawable/ic_add_user"
+        android:title="Utilisateurs" />
+    <item
+        android:id="@+id/nav_profil_admin"
+        android:icon="@drawable/ic_profil"
+        android:title="Profil" />
+</menu>

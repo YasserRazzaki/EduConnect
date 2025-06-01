@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="voirToutCours" type="id" />
+    <item name="textAucunCours" type="id" />
+    <item name="textAucuneAnnonce" type="id" />
+    <item name="voirToutAnnonces" type="id" />
+</resources>

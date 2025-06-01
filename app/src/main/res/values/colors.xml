@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bottom_nav_colors">#FFBC65</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#03A9F4</color>
+
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorText">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorDivider">#BDBDBD</color>
+
+    <color name="colorSuccess">#4CAF50</color>
+    <color name="colorWarning">#FFC107</color>
+    <color name="colorError">#F44336</color>
+    <color name="orange">#FF5722</color>
+    <color name="grey">#757575</color>
+    <color name="colorTableHeader">#3F51B5</color>
+
+    <color name="seance_rouge">#FF5252</color>
+    <color name="seance_bleu">#2196F3</color>
+    <color name="seance_vert">#4CAF50</color>
+    <color name="seance_violet">#9C27B0</color>
+    <color name="seance_violet_clair">#673AB7</color>
+    <color name="seance_orange">#FF9800</color>
+    <color name="seance_jaune">#FFC107</color>
+    <color name="seance_bleu_clair">#03A9F4</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="divider_color">#E0E0E0</color>
+    <color name="primary_light">#E3F2FD</color>
+    <color name="border_light">#E8E8E8</color>
+    <color name="grade_excellent">#4CAF50</color>
+    <color name="grade_background">#E8F5E8</color>
+    <color name="green">#4CAF50</color>
+
+</resources>

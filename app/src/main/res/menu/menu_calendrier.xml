@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_sync_calendar"
+        android:title="Synchroniser avec le calendrier local"
+        android:icon="@drawable/ic_calendar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_delete_calendar"
+        android:title="Supprimer dans le calendrier local"
+        android:icon="@drawable/ic_calendar"
+        app:showAsAction="never" />
+
+</menu>

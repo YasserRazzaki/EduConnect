@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_events"
+        android:title="Page événements"
+        android:icon="@drawable/ic_add"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_create_event"
+        android:title="Créer un événement"
+        android:icon="@drawable/ic_edit"
+        app:showAsAction="never" />
+</menu>

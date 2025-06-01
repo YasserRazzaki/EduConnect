@@ -1,0 +1,40 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTitreAnnonce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Titre de l'annonce"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/orange"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/editContenuAnnonce"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="Contenu de l'annonce"
+            android:gravity="top"
+            android:backgroundTint="@color/orange"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnPublierAnnonce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Publier l'annonce"
+            android:backgroundTint="@color/orange"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

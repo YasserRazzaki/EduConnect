@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EduConnect</string>
+    <string name="backend_url_off">https://loudly-smooth-garfish.ngrok-free.app/sendNotification</string>
+    <string name="backend_url_msgs">https://loudly-smooth-garfish.ngrok-free.app/sendMessageNotification</string>
+    <string name="prompt_cours">Choisir un cours</string>
+    <string-array name="type_utilisateur">
+        <item>ETUDIANT</item>
+        <item>ENSEIGNANT</item>
+        <item>ADMIN</item>
+    </string-array>
+
+</resources>

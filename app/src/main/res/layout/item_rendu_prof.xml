@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Icône utilisateur -->
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_profil"
+            android:scaleType="centerInside"
+            android:padding="12dp"
+            android:contentDescription="Icône étudiant" />
+
+        <!-- Contenu principal -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- ID Étudiant -->
+            <TextView
+                android:id="@+id/textViewEtudiant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID: 2024001"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="4dp" />
+
+            <!-- Nom étudiant (ajouté) -->
+            <TextView
+                android:id="@+id/textViewNomEtudiant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Martin Dubois"
+                android:textSize="16sp"
+                android:textColor="@color/grey"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Date de soumission -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/ic_calendar"
+                    android:layout_marginEnd="6dp"
+                    android:alpha="0.7"
+                    android:contentDescription="Icône calendrier" />
+
+                <TextView
+                    android:id="@+id/textViewSoumisLe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soumis le 15 mars 2024"
+                    android:textSize="14sp"
+                    android:textColor="@color/colorTextSecondary" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
